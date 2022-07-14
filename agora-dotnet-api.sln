@@ -22,6 +22,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JMeter", "JMeter", "{838DCF
 		tests\JMeter\Agora_Load_Tests.jmx = tests\JMeter\Agora_Load_Tests.jmx
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PostmanIntegration", "PostmanIntegration", "{B58A0F96-4C92-473C-AAD8-654F09BB7C09}"
+	ProjectSection(SolutionItems) = preProject
+		tests\PostmanIntegration\Agora_API_Integration_Tests.postman_collection.json = tests\PostmanIntegration\Agora_API_Integration_Tests.postman_collection.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +64,7 @@ Global
 		{FFA6BC3E-F13C-48EF-A943-795744CEBA11} = {95C26C5B-3848-45CF-9C0D-F7F9DACB9761}
 		{211F4C85-DA84-483D-984B-A68325F29FE8} = {BF409CFE-E769-4278-8819-BC623092CB2B}
 		{838DCF4B-917A-484C-A4AC-47050FCF40F5} = {BF409CFE-E769-4278-8819-BC623092CB2B}
+		{B58A0F96-4C92-473C-AAD8-654F09BB7C09} = {BF409CFE-E769-4278-8819-BC623092CB2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62A314A5-9862-4B29-BC79-A7717E3FEC54}
